@@ -1,5 +1,4 @@
 import 'package:complete_flutter_project/core/routing/routes.dart';
-import 'package:complete_flutter_project/external_designs/travel_app_ui.dart';
 import 'package:flutter/material.dart';
 
 import '../../features/login/login_screen.dart';
@@ -12,8 +11,6 @@ class AppRouter {
         return MaterialPageRoute(builder: (_) => const OnBoardingScreen());
       case Routes.loginScreen:
         return MaterialPageRoute(builder: (_) => const LoginScreen());
-      case Routes.designUI:
-        return MaterialPageRoute(builder: (_) => const TravelAppUI());
       default:
         return MaterialPageRoute(
           builder: (_) => Scaffold(
