@@ -47,6 +47,7 @@ dev_dependencies:
 
   json_serializable:
   json_annotation:
+  build_runner:
 
   # design responsive
   flutter_screenutil:

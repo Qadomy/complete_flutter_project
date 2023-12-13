@@ -1,12 +1,12 @@
-import 'package:complete_flutter_project/features/login/widgets/already_have_account_text.dart';
-import 'package:complete_flutter_project/features/login/widgets/terms_and_conditions_text.dart';
+import 'package:complete_flutter_project/features/login/ui/widgets/already_have_account_text.dart';
+import 'package:complete_flutter_project/features/login/ui/widgets/terms_and_conditions_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
-import '../../core/helpers/spacing.dart';
-import '../../core/theming/styles.dart';
-import '../../core/widgets/app_text_button.dart';
-import '../../core/widgets/app_text_form_field.dart';
+import '../../../core/helpers/spacing.dart';
+import '../../../core/theming/styles.dart';
+import '../../../core/widgets/app_text_button.dart';
+import '../../../core/widgets/app_text_form_field.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
