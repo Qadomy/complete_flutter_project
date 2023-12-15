@@ -1,6 +1,8 @@
 import 'package:flutter/widgets.dart';
 
 /// this extension is used to navigate between screens
+/// easily without the need to write the whole code every
+/// time you want to navigate to another screen
 extension Navigation on BuildContext {
   Future<dynamic> pushNamed(String routeName, {Object? arguments}) {
     return Navigator.of(this).pushNamed(routeName, arguments: arguments);
