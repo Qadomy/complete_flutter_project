@@ -1,5 +1,7 @@
 import 'package:complete_flutter_project/core/routing/routes.dart';
 import 'package:complete_flutter_project/features/home/ui/home_screen.dart';
+import 'package:complete_flutter_project/features/signup/logic/signup_cubit.dart';
+import 'package:complete_flutter_project/features/signup/ui/signup_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
@@ -16,6 +18,9 @@ class AppRouter {
       Routes.loginScreen => materialPageRoute(BlocProvider(
           create: (context) => getIt<LoginCubit>(),
           child: const LoginScreen())),
+      Routes.signupScreen => materialPageRoute(BlocProvider(
+          create: (context) => getIt<SignupCubit>(),
+          child: const SignupScreen())),
       _ => materialPageRoute(Scaffold(
           body: Center(
             child: Text('No route defined for ${settings.name}'),
