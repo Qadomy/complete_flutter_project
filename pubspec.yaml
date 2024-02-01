@@ -49,6 +49,7 @@ dependencies:
   # design responsive
   flutter_screenutil:
   flutter_native_splash:
+  flutter_launcher_icons: ^0.13.1
 
   # language
   easy_localization:
@@ -95,6 +96,7 @@ flutter:
   assets:
     - assets/images/
     - assets/svgs/
+    - assets/icons/
 
   # fonts:
   #   - family: Schyler
